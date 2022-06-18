@@ -6,14 +6,6 @@ import logging
 
 logger = logging.getLogger()
 
-# TODO: remove this once finished. 
-# For testing
-# os.environ["BEARER_TOKEN"] = "AAAAAAAAAAAAAAAAAAAAAEabdwEAAAAANGcnWgsfrtyu5nSVdgEKHB1bJgg%3DCjDwlySuwoOyxCg6CmtAP3E93VsAanODrYVNTcJnUsKvUlFHyk"
-# os.environ["CONSUMER_KEY"] = "0JYo3LIT2F8oaPj60wMsks5a1"
-# os.environ["CONSUMER_SECRET"] = "oZ2b9GpfzmtJXDCgyYyFNIp8juN8eMSv5DCj8ESo33F7VMBj4Y"
-# os.environ["ACCESS_TOKEN"] = "478198693-7os66GWhx6GrTU7UPbIldCHQG7h7baQ8ipJuzelT"
-# os.environ["ACCESS_TOKEN_SECRET"] = "R6MtmAw15mAeyUBWf5fGDfMbib7uCrfhKhmWmpQ2q0Uf9"
-
 def get_client():
     bearer_token = os.getenv("BEARER_TOKEN")
     consumer_key = os.getenv("CONSUMER_KEY")
