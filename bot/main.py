@@ -2,9 +2,9 @@
 import logging
 import time
 # Source child functions. 
-from bot.get_client import get_client
-from bot.get_random_lyric import get_random_lyric
-from bot.tweet_lyric import tweet_lyric
+from get_client import get_client
+from get_random_lyric import get_random_lyric
+from tweet_lyric import tweet_lyric
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
